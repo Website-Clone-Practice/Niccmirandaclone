@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Editorial New Light;
+    src: url(./Fonts/5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+
+
+@font-face {
+    font-family: Canopee;
+    src: url(./Fonts/616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +18,251 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: Editorial New,sans-serif;
+    font-weight: 300;
+    
 }
 
 #page1 {
+    min-height: 100vh;
     width: 100vw;
     background-color: #BFB7AE;
     height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#navbar {
+    z-index: 1000;
+   position: sticky;
+   top: 0;
+   left: 0;
+   background-color: #BFB7AE;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(29, 29, 27, .5);
+}
+
+#navbar  h5 {
+    font-family:Editorial New Light ;
+    font-weight: 500;
+    width: 30%;
+    letter-spacing: 0.3px;
+}
+
+#headerimg {
+   height: 27%;
+   
+}
+
+#navbar i {
+    width: 30%;
+    text-align: right;
+
+}
+
+
+/*  */
+
+#featuresec {
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 3vh 4vw;
+    
+}
+
+
+#box1 {
+    /* background-color: red; */
+    width: 35%;
+    border: none;
+    border-right: 1px solid rgba(29, 29, 27, .5);
+}
+
+
+#box1 #imgdiv {
+    height: 70%;
+    width: 85%;
+    overflow: hidden;
+}
+
+
+#box1 #imgdiv img {
+    margin-bottom: 2vh;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border:  1.5px solid rgba(29, 29, 27, .5);
+}
+
+#imgdiv:hover img{
+    scale: 1.1;
+    transition: all ease 0.5s;
+}
+
+#box1 h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#box1 h3 #featuretitle {
+    width:15%;
+    border:none;
+    
+}
+
+#box1 #new {
+    color:#BFB7AE;
+    margin-left: 0.5vw;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 2.2vh;
+    background-color: #B63B12;
+    font-family: Editorial New Light;
+}
+
+#box1 p{
+    font-family:Editorial New Light ;
+    font-weight: 100;
+    font-size: 18px;
+    width: 90%;
+}
+
+
+#box2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: none;
+    border-right: 1px solid rgba(29, 29, 27, .5);
+}
+
+#box2 h2 {
+    padding: 50px 11px 11px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 40px;
+    font-family:Editorial New Light; ;
+    font-weight: 900;
+}
+
+#box2 h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family:Editorial New Light; ;
+    font-weight:100;
+}
+
+#box2 p {
+    margin-top: 20px;
+    font-family: Editorial New Light;
+    font-size:17px;
+}
+
+#box2 p span {
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+#box3 {
+    width: 35%;
+    border: none;
+    padding: 0px 10px 0px 50px;
+   
+}
+
+#box3 #imgdiv {
+    height: 70%;
+    width: 90%;
+    overflow: hidden;
+}
+
+
+#box3 #imgdiv img {
+    margin-bottom: 2vh;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border:  1.5px solid rgba(29, 29, 27, .5);
+}
+
+#imgdiv:hover img{
+    scale: 1.1;
+    transition: all ease 0.5s;
+    border:  1.5px solid rgba(29, 29, 27, .5);
+}
+
+#box3 h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#box3 h3 #featuretitle {
+    width:15%;
+    border:none;
+    
+}
+
+
+#box3 h3 #featuretitle {
+    width:25%;
+    border:none;
+
+    
+}
+
+
+#box3 #new {
+    color:#BFB7AE;
+    margin-left: 0.5vw;
+    
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 2.2vh;
+    background-color: #B63B12;
+    font-family: Editorial New Light;
+}
+#box3 p{
+    font-family:Editorial New Light ;
+    font-weight: 100;
+    font-size: 18px;
+    width: 90%;
+}
+
+
+
+
+#page1 #mirandasec {
+    margin-top: 15px;
+    background-color: #1C1C19;
+    color: #C5BDB3;
+    font-size: 550px;
+    font-weight: 100;
+    font-family: canopee;
+    width: 96%;
+    margin-left: 2%;
+    letter-spacing: -15px;
+    
+   
+
 }
