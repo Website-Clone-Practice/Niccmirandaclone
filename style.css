@@ -29,12 +29,11 @@ html, body {
 }
 
 #page1 {
-    min-height: 100vh;
     width: 100vw;
     background-color: #BFB7AE;
-    height: 100vh;
+    height: 150vh;
     position: relative;
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 #navbar {
@@ -258,16 +257,73 @@ html, body {
 
 
 #page1 #mirandasec {
-    margin-top: 15px;
+    margin-bottom: 20px;
+    
     background-color: #1C1C19;
     color: #C5BDB3;
     font-size: 550px;
     font-weight: 100;
     font-family: canopee;
-    width: 96%;
+    width: 95%;
     margin-left: 2%;
     letter-spacing: -15px;
-    
-   
-
 }
+
+
+#page2 {
+  
+    height: 150vh;
+    width: 100%;
+    background-color: #BFB7AE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 15px;
+}
+
+#page2-left {
+height: 100%;
+width: 40%;
+padding-right: 40px;
+}
+
+
+#page2-left h2 {
+    font-family: canopee;
+    font-size: 120px;
+    text-align: center;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-left h2 span {
+  
+    font-size: 210px;
+    font-weight: 900;
+  
+}
+
+#page2-left img {
+    /* margin-left: 50px; */
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    }
+    
+    #page2para {
+        font-family: Editorial New Light;
+        font-size: 40px;
+    }
+
+#page2-right {
+    height: 100%;
+    width: 60%;
+}
+
+#page2-right img{
+    height: 100%;
+    width: 60%;
+}
+
+
+
